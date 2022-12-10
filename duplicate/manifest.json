@@ -1,0 +1,11 @@
+{
+  "name": "Duplicate",
+  "id": "1044252084528589263",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html"
+}
