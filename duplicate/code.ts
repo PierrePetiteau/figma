@@ -47,9 +47,14 @@ function undo() {
 }
 
 function runPlugin() {
-  figma.showUI(__html__);
+  figma.showUI(__html__, {
+    themeColors: true,
+    visible: true,
+    width: 40,
+    height: 350,
+  });
 
-  figma.ui.resize(80, 400);
+  figma.ui.reposition(figma.viewport.bounds.x, figma.viewport.bounds.y);
   figma.ui.onmessage = (msg) => {
     const command = msg.type as Command;
     switch (command) {

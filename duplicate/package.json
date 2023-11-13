@@ -9,6 +9,9 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@figma/plugin-typings": "^1.39.1"
+    "@figma/plugin-typings": "1.81.0"
+  },
+  "dependencies": {
+    "create-figma-plugin": "^3.0.2"
   }
 }

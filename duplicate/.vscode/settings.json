@@ -1,0 +1,6 @@
+{
+  "tasks.autoDetect": "onFirstSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
